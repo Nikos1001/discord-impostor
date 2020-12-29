@@ -1,5 +1,5 @@
 import requests
-import Server
+import DiscordImpostor.Server
 
 
 class Agent:

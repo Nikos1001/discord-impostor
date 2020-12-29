@@ -1,0 +1,12 @@
+README.md
+setup.py
+DiscordImpostor/Agent.py
+DiscordImpostor/Channel.py
+DiscordImpostor/Message.py
+DiscordImpostor/Server.py
+DiscordImpostor/User.py
+DiscordImpostor/__init__.py
+DiscordImpostor.egg-info/PKG-INFO
+DiscordImpostor.egg-info/SOURCES.txt
+DiscordImpostor.egg-info/dependency_links.txt
+DiscordImpostor.egg-info/top_level.txt

@@ -1,13 +1,13 @@
-# discord-impostor
+# discord_impostor
 A python package for creating Discord bots that pretend to be real users
 
 ### Installation
 
-To install discord-impostor, simply run ```pip install discord-impostor```
+To install DiscordImpostor, simply run ```pip install DiscordImpostor```
 
 ### Basic Usage
 
-To login into Discord with discord-imposter, you need to create and authorize an "Agent".
+To login into Discord with DiscordImposter, you need to create and authorize an "Agent".
 
 ```
 
@@ -35,7 +35,3 @@ channel.send_msg('Hello World!')
 ```
 
 To see the full functionality, take a look at the source code.
-
-### Pypi Page
-
-https://pypi.org/project/discord-impostor/1.0.0/

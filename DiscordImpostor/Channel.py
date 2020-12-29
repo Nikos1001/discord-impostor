@@ -1,7 +1,7 @@
 
-import Server
-import Message
-import User
+import DiscordImpostor.Server
+import DiscordImpostor.Message
+import DiscordImpostor.User
 
 
 class Channel:

@@ -1,5 +1,5 @@
 
-import Channel
+import DiscordImpostor.Channel
 
 
 class Server:

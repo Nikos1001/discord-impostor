@@ -1,21 +1,21 @@
 Metadata-Version: 2.1
-Name: discord-impostor
-Version: 1.0.0
+Name: DiscordImpostor
+Version: 1.0.2
 Summary: A python package for creating bots that pretend to be real users
 Home-page: https://github.com/Nikos1001/discord-impostor
 Author: Nikos Plugachev
 Author-email: nikos@plugachev.com
 License: MIT
-Description: # discord-impostor
+Description: # discord_impostor
         A python package for creating Discord bots that pretend to be real users
         
         ### Installation
         
-        To install discord-impostor, simply run ```pip install discord-impostor```
+        To install DiscordImpostor, simply run ```pip install DiscordImpostor```
         
         ### Basic Usage
         
-        To login into Discord with discord-imposter, you need to create and authorize an "Agent".
+        To login into Discord with DiscordImposter, you need to create and authorize an "Agent".
         
         ```
         
@@ -43,6 +43,7 @@ Description: # discord-impostor
         ```
         
         To see the full functionality, take a look at the source code.
+        
 Platform: UNKNOWN
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3

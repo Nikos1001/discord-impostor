@@ -6,8 +6,8 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name="discord-impostor",
-    version="1.0.0",
+    name="DiscordImpostor",
+    version="1.0.2",
     description="A python package for creating bots that pretend to be real users",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -20,6 +20,6 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["discord-impostor"],
+    packages=["DiscordImpostor"],
     include_package_data=True
 )
