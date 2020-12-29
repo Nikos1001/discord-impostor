@@ -28,7 +28,7 @@ class Agent:
         responce_json = self.authorized_get(request_url).json()
         for guild in responce_json['guild_affinities']:
             id = guild['guild_id']
-            server = Server.Server(self, id)
+            server = DiscordImpostor.Server.Server(self, id)
             server.load()
             self.servers.append(server)
 

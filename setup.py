@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="DiscordImpostor",
-    version="1.0.2",
+    version="1.0.3",
     description="A python package for creating bots that pretend to be real users",
     long_description=README,
     long_description_content_type="text/markdown",

@@ -15,7 +15,7 @@ class Channel:
     def load(self):
         channel_json = self.agent.authorized_get('https://discord.com/api/v8/channels/' + self.id).json()
         self.name = channel_json['name']
-        self.guild = Server.Server(self.agent, channel_json['guild_id'])
+        self.guild = DiscordImpostor.Server.Server(self.agent, channel_json['guild_id'])
 
     def send_msg(self, content):
         url = 'https://discord.com/api/v8/channels/' + self.id + '/messages'
@@ -49,10 +49,10 @@ class Channel:
         return msgs
 
     def get_msg_from_json(self, msg_data):
-        msg = Message.Message(msg_data['id'], self.agent)
+        msg = DiscordImpostor.Message.Message(msg_data['id'], self.agent)
         msg.content = msg_data['content']
         msg.channel = self
-        msg.author = User.User(msg_data['author']['id'], self.agent)
+        msg.author = DiscordImpostor.User.User(msg_data['author']['id'], self.agent)
         msg.author.username = msg_data['author']['username']
 
         return msg

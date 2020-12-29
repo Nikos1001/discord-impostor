@@ -21,7 +21,7 @@ class Server:
         channels_json = self.agent.authorized_get('https://discord.com/api/v8/guilds/' + self.id + '/channels').json()
 
         for channel_json in channels_json:
-            channel = Channel.Channel(channel_json['id'], self.agent)
+            channel = DiscordImpostor.Channel.Channel(channel_json['id'], self.agent)
             channel.name = channel_json['name']
             channel.guild = self
             self.channels.append(channel)
